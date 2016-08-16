@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.sothree.slidinguppanel.SlidingUpPanelLayout
+                android:id="@+id/sliding_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom"
+                sothree:panelHeight="@dimen/bottom_action_bar_height"
+                sothree:shadowHeight="2.0dip">
+
+                <LinearLayout
+                    android:id="@+id/content_frame"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/tool_bar" />
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="1.0">
+
+                        <FrameLayout
+                            android:id="@+id/activity_base_content"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+
+                        <FrameLayout
+                            android:id="@+id/activity_base_search"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/slider_frame"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clickable="true"
+                    android:focusable="false">
+
+                    <FrameLayout
+                        android:id="@+id/playFrame"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+                    <include layout="@layout/bottom_action_bar" />
+                </FrameLayout>
+            </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="260dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/bottom_action_bar_height"
+            android:background="#99ffffff"
+            android:choiceMode="singleChoice"
+            android:divider="#11dddddd"
+            android:dividerHeight="0.0px"
+            android:listSelector="@drawable/holo_selector" />
+    </android.support.v4.widget.DrawerLayout>
+
+</FrameLayout>

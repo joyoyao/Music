@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="min_width">296.0dip</dimen>
+    <dimen name="min_height">330.0dip</dimen>
+    <dimen name="lyricview_left_margin">3.0dip</dimen>
+    <dimen name="lyricview_right_margin">3.0dip</dimen>
+    <dimen name="lyricview_bottom_margin">5.0dip</dimen>
+    <dimen name="lyric_view_height">170.0dip</dimen>
+    <dimen name="turntable_width">266.0dip</dimen>
+    <dimen name="turntable_height">266.0dip</dimen>
+    <dimen name="turntable_marginLeft">12.0dip</dimen>
+    <dimen name="turntable_marginTop">2.0dip</dimen>
+    <dimen name="album_width">104.0dip</dimen>
+    <dimen name="album_height">104.0dip</dimen>
+    <dimen name="album_marginLeft">80.0dip</dimen>
+    <dimen name="album_marginTop">80.0dip</dimen>
+    <dimen name="turntable_width_anim">266.0dip</dimen>
+    <dimen name="turntable_height_anim">266.0dip</dimen>
+    <dimen name="turntable_marginLeft_anim">12.0dip</dimen>
+    <dimen name="turntable_marginTop_anim">-20.0dip</dimen>
+    <!-- turntable_marginTop_anim_ex = turntable_marginTop - turntable_marginTop_anim -->
+    <dimen name="turntable_marginTop_anim_ex">22.0dip</dimen>
+    <dimen name="turntable_bg_width_anim">266.0dip</dimen>
+    <dimen name="turntable_bg_height_anim">266.0dip</dimen>
+    <dimen name="turntable_bg_marginLeft_anim">12.0dip</dimen>
+    <dimen name="turntable_bg_marginTop_anim">2.0dip</dimen>
+    <dimen name="album_marginLeft_anim">80.0dip</dimen>
+    <dimen name="album_marginTop_anim">80.0dip</dimen>
+    <dimen name="stylus_width">72.0dip</dimen>
+    <dimen name="stylus_height">253.0dip</dimen>
+    <dimen name="stylus_pivot_x">43dip</dimen>
+    <dimen name="stylus_pivot_y">24.7dip</dimen>
+    <dimen name="playmode_width">22.0dip</dimen>
+    <dimen name="playmode_height">17.0dip</dimen>
+    <dimen name="playmode_right_margin">17.0dip</dimen>
+    <dimen name="playmode_top_margin">15.0dip</dimen>
+    <dimen name="songname_right_margin">3.0dip</dimen>
+    <dimen name="songname_left_margin">3.0dip</dimen>
+    <dimen name="songname_bottom_margin">220.0dip</dimen>
+    <dimen name="artist_right_margin">3.0dip</dimen>
+    <dimen name="artist_left_margin">3.0dip</dimen>
+    <dimen name="artist_bottom_margin">2.0dip</dimen>
+    <dimen name="songname_text_size">19.0dip</dimen>
+    <dimen name="artist_textsize">12.0dip</dimen>
+    <dimen name="lyric_highlight_text_size">14.0dip</dimen>
+    <dimen name="lyric_text_size">14.0dip</dimen>
+    <dimen name="LINE_BLACK">8.0dip</dimen>
+    <dimen name="offsetx">27.0dip</dimen>
+    <dimen name="offsety">24.0dip</dimen>
+    <dimen name="lyric_lineHeight">11.0dip</dimen>
+    <dimen name="lyric_paddingTop">9.0dip</dimen>
+    <dimen name="lyric_paddingBottom">9.0dip</dimen>
+    <dimen name="turntable_radius">124.0dip</dimen>
+    <dimen name="turntable_progress">3.0dip</dimen>
+    <dimen name="stylus_marginRight">10dip</dimen>
+    <dimen name="stylus_marginTop">0.0dip</dimen>
+    <dimen name="styluslight_width">36.0dip</dimen>
+    <dimen name="styluslight_height">36.0dip</dimen>
+    <dimen name="stylushead_marginLeft">192.0dip</dimen>
+    <dimen name="stylushead_marginTop">204.0dip</dimen>
+    <dimen name="turntable_animator_min_distance">30.0dip</dimen>
+    <dimen name="turntable_animator_max_distance">120.0dip</dimen>
+    <dimen name="line_strokeWidth">2.0dip</dimen>
+    <dimen name="progress_size">8.0dip</dimen>
+    <dimen name="album_shade_marginLeft_anim">-104.0dip</dimen>
+    <dimen name="album_shade_marginTop_anim">80.0dip</dimen>
+    <dimen name="playbutton_width">45.0dip</dimen>
+    <dimen name="playbutton_height">45.0dip</dimen>
+    <dimen name="playbutton_marginLeft">-75.0dip</dimen>
+    <dimen name="playbutton_marginTop">110.0dip</dimen>
+    <dimen name="progress_head_width">61.0dip</dimen>
+    <dimen name="progress_head_height">22.0dip</dimen>
+    <dimen name="progress_head_marginLeft">127.0dip</dimen>
+    <dimen name="progress_head_marginTop">236.0dip</dimen>
+    <dimen name="progress_tips_text_size">12.0sp</dimen>
+    <dimen name="progress_tips_marginLeft">50.0dip</dimen>
+    <dimen name="progress_tips_marginTop_up">50.0dip</dimen>
+    <dimen name="progress_tips_marginTop_down">200.0dip</dimen>
+    <dimen name="button_bar_height_plus_padding">90.0dip</dimen>
+
+
+    <dimen name="songname_top_margin">5dip</dimen>
+    <dimen name="artist_top_margin">5dip</dimen>
+
+    <dimen name="app_icon_drawable_padding">0dp</dimen>
+    <dimen name="app_icon_padding_top">0dp</dimen>
+
+</resources>

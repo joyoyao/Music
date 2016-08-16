@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lyric_color_normal">#ffb3b3b3</color>
+    <color name="lyric_color_highlight">#ffffffff</color>
+    <color name="nex">#ffefefef</color>
+    <color name="action_bar">#fff0f0f0</color>
+    <color name="action_bar_title">#ff646464</color>
+    <color name="action_bar_subtitle">#ff969696</color>
+    <color name="line_one">#ff000000</color>
+    <color name="line_two">#90000000</color>
+    <color name="line_three">#90000000</color>
+    <color name="audio_player_current_time">#ff424242</color>
+    <color name="audio_player_total_time">#ff424242</color>
+    <color name="audio_player_line_one">#ff646464</color>
+    <color name="audio_player_line_two">#ff969696</color>
+    <color name="audio_player_pager_container">#fff7f7f7</color>
+    <color name="lyrics">#ff646464</color>
+    <color name="bottom_action_bar">#fff7f7f7</color>
+    <color name="bab_line_one">#ff646464</color>
+    <color name="bab_line_two">#ff969696</color>
+    <color name="favorite_normal">#ffffffff</color>
+    <color name="favorite_selected">#ffff2d55</color>
+    <color name="search_action">#ff000000</color>
+    <color name="shop_action">#ff000000</color>
+    <color name="pinn_to_action">#ff000000</color>
+    <color name="tpi_background_color">#ffffffff</color>
+    <color name="tpi_footer_color">#ffbcbcbc</color>
+    <color name="tpi_selected_text_color">#ffff2d55</color>
+    <color name="tpi_unselected_text_color">#ffff2d55</color>
+    <color name="colorstrip">#ffbcbcbc</color>
+    <color name="holo_selector">#10000000</color>
+    <color name="bottom_action_bar_text_color">#ff646464</color>
+    <color name="bottom_action_bar_info_divider">#55ffffff</color>
+    <color name="list_view_text_color">#ffffffff</color>
+    <color name="list_view_quick_context_menu_button_divider">#99ffffff</color>
+    <color name="tab_background_color">#ff000000</color>
+    <color name="action_bar_background_color">#fff7f7f7</color>
+    <color name="action_bar_title_color">#ff646464</color>
+    <color name="audio_player_text_color">#ff969696</color>
+    <color name="primary_background_inverted">#FF0f0f11</color>
+    <color name="ac_title">#ffffffff</color>
+    <color name="ac_subtitle">#80ffffff</color>
+    <!-- See through -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Black -->
+    <color name="black">#ff000000</color>
+
+    <!-- White -->
+    <color name="white">#ffffffff</color>
+
+    <!-- Transparent black -->
+    <color name="transparent_black">#99000000</color>
+
+    <!-- Transparent white -->
+    <color name="transparent_white">#ffcccccc</color>
+
+    <!-- Dark transparent color -->
+    <color name="list_item_background">#c1000000</color>
+
+    <!-- A darkish color used for the action bar -->
+    <color name="action_bar_color">#ff333333</color>
+
+    <!-- A light, transparent Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_light_transparent">#9933b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="gmail_red">#fff16364</color>
+    <color name="gmail_yellow">#ffe4c72e</color>
+    <color name="gmail_purple">#ffad62a7</color>
+    <color name="gmail_blue">#ff59a2be</color>
+    <color name="gmail_orange">#fff9a43e</color>
+    <color name="gmail_green">#ff67bf74</color>
+    <color name="loco">#ff00bcd4</color>
+    <color name="loco_med">#ff80deea</color>
+    <color name="material_blue">#ff5677fc</color>
+    <color name="material_blue_med">#ffafbfff</color>
+    <color name="material_indigo">#ff3f51b5</color>
+    <color name="material_indigo_med">#ff9fa8da</color>
+    <color name="material_pink">#ffe91e63</color>
+    <color name="material_pink_med">#fff48fb1</color>
+    <color name="material_yellow">#ffffeb3b</color>
+    <color name="material_yellow_med">#fffff59d</color>
+    <color name="material_teal">#ff009688</color>
+    <color name="material_teal_med">#ff80cbc4</color>
+    <color name="material_purple">#ff9c27b0</color>
+    <color name="material_purple_med">#ffba68c8</color>
+    <color name="material_red">#ffe51c23</color>
+    <color name="material_red_med">#fff69988</color>
+
+</resources>

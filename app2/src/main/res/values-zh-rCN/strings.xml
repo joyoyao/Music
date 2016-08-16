@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音乐</string>
+    <string name="no_music">没有音乐</string>
+    <string name="unknow_artist">未知艺术家</string>
+    <string name="unknow_title">未知歌曲</string>
+    <string name="no_lyric">没有歌词</string>
+    <string name="lyric_loading">歌词正在加载...</string>
+    <string name="widget_initial_text">触摸唱针可选择音乐</string>
+</resources>

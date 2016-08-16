@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="lrc_normal_color">#ffc9c9c9</color>
+    <color name="lrc_hightlight_color">#ff32cc89</color>
+
+    <color name="songname_text_color">#ffffffff</color>
+    <color name="artist_text_color">#ffffffff</color>
+    <color name="progress_tips_text_color">#4cffffff</color>
+
+    <color name="workspace_icon_text_color">#FFF</color>
+
+</resources>

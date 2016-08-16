@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.way.longplay.Hotseat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bw_hotseat"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_bar_height_plus_padding"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <RelativeLayout
+        android:id="@+id/bwc_layout_app1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/bwc_btn_app1"
+            style="@style/ButtonIcon"
+            android:src="@drawable/bwc_ic_phone" />
+
+        <TextView
+            android:id="@+id/bwc_text_app1"
+            style="@style/WorkspaceIcon.Portrait"
+            android:layout_below="@+id/bwc_btn_app1"
+            android:text="app1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwc_layout_app2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/bwc_btn_app2"
+            style="@style/ButtonIcon"
+            android:src="@drawable/bwc_ic_camera" />
+
+        <TextView
+            android:id="@+id/bwc_text_app2"
+            style="@style/WorkspaceIcon.Portrait"
+            android:layout_below="@+id/bwc_btn_app2"
+            android:text="app2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwc_layout_app3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/bwc_btn_app3"
+            style="@style/ButtonIcon"
+            android:src="@drawable/bwc_ic_gallery" />
+
+        <TextView
+            android:id="@+id/bwc_text_app3"
+            style="@style/WorkspaceIcon.Portrait"
+            android:layout_below="@+id/bwc_btn_app3"
+            android:text="app3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwc_layout_app4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/bwc_btn_app4"
+            style="@style/ButtonIcon"
+            android:src="@drawable/bwc_ic_music" />
+
+        <TextView
+            android:id="@+id/bwc_text_app4"
+            style="@style/WorkspaceIcon.Portrait"
+            android:layout_below="@+id/bwc_btn_app4"
+            android:text="app4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwc_layout_app5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/bwc_btn_app5"
+            style="@style/ButtonIcon"
+            android:src="@drawable/bwc_ic_music" />
+
+        <TextView
+            android:id="@+id/bwc_text_app5"
+            style="@style/WorkspaceIcon.Portrait"
+            android:layout_below="@+id/bwc_btn_app5"
+            android:text="app5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwc_layout_app6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/bwc_btn_app6"
+            style="@style/ButtonIcon"
+            android:src="@drawable/bwc_ic_music" />
+
+        <TextView
+            android:id="@+id/bwc_text_app6"
+            style="@style/WorkspaceIcon.Portrait"
+            android:layout_below="@+id/bwc_btn_app6"
+            android:text="app6" />
+    </RelativeLayout>
+
+</com.way.longplay.Hotseat>

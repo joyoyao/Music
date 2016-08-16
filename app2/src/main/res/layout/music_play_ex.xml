@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/main_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/turntable_bg"
+            android:layout_width="@dimen/turntable_width"
+            android:layout_height="@dimen/turntable_height"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/turntable_bg" />
+
+        <RelativeLayout
+            android:id="@+id/songname_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/turntable_bg"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/songname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="1"
+                android:scrollHorizontally="true"
+                android:shadowColor="#ff000000"
+                android:shadowDx="0.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.5"
+                android:singleLine="true"
+                android:textColor="@color/songname_text_color"
+                android:textSize="@dimen/songname_text_size" />
+
+            <TextView
+                android:id="@+id/artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/songname"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="2dp"
+                android:layout_toRightOf="@+id/songname"
+                android:gravity="center"
+                android:shadowColor="#ff000000"
+                android:shadowDx="0.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.5"
+                android:singleLine="true"
+                android:textColor="@color/artist_text_color"
+                android:textSize="@dimen/artist_textsize" />
+        </RelativeLayout>
+
+        <com.way.lrc.LyricListView
+            android:id="@+id/lrc_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/songname_artist"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/turntable_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-20dp">
+
+        <FrameLayout
+            android:id="@+id/turntable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <FrameLayout
+                android:layout_width="@dimen/turntable_bg_width_anim"
+                android:layout_height="@dimen/turntable_bg_height_anim"
+                android:background="@drawable/turntable_bg_anim">
+
+                <ImageView
+                    android:layout_width="@dimen/album_width"
+                    android:layout_height="@dimen/album_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/default_album" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/album_anim"
+                android:layout_width="@dimen/turntable_bg_width_anim"
+                android:layout_height="@dimen/turntable_bg_height_anim"
+                android:background="@drawable/turntable_bg_anim">
+
+                <ImageView
+                    android:id="@+id/album"
+                    android:layout_width="@dimen/album_width"
+                    android:layout_height="@dimen/album_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/default_album" />
+
+                <ImageView
+                    android:id="@+id/album_shade"
+                    android:layout_width="@dimen/album_width"
+                    android:layout_height="@dimen/album_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/album_shade"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/album_fadein"
+                android:layout_width="@dimen/turntable_bg_width_anim"
+                android:layout_height="@dimen/turntable_bg_height_anim"
+                android:background="@drawable/turntable_bg_anim"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="@dimen/album_width"
+                    android:layout_height="@dimen/album_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/default_album" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/stylus"
+        android:layout_width="@dimen/stylus_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right|center"
+        android:layout_marginRight="@dimen/stylus_marginRight"
+        android:layout_marginTop="@dimen/stylus_marginTop">
+
+        <ImageView
+            android:id="@+id/styluslight"
+            android:layout_width="@dimen/styluslight_width"
+            android:layout_height="@dimen/styluslight_height"
+            android:layout_gravity="bottom|left|center"
+            android:scaleType="centerInside"
+            android:src="@drawable/stylushead"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/stylushead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right|center"
+            android:scaleType="centerInside"
+            android:src="@drawable/stylus" />
+    </FrameLayout>
+
+</FrameLayout>
